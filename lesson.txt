@@ -1,0 +1,55 @@
+Teamwork with Git
+
+Topics:
+The importance of collaboration
+Commits as communication
+Branching
+Merging
+Resolving merge conflicts
+
+Git Review:
+What is Git? A Version Control System.
+It only keeps track of additions and removal of lines of codes.
+
+Commit etiquette:
+Should always include a single sentence summarizing the change(s) you've made.
+A commit is a snapshot of changes over time.
+
+Git Tools in the Terminal:
+git diff
+- You can use git diff in terminal to see what changes were made prior to a commit.
+
+git log
+- Shows a list of all the commits
+
+Branching:
+
+git branch
+- Shows you all the branches that exist on your repo
+- You can also create a new branch (typically it is just one new feature)
+- You can only look at one branch at a time.
+
+git checkout "input the branch"
+- You can switch between branches using the checkout command
+
+
+
+Merging:
+
+In-class Exercise:
+Top half goes to one person, bottom half to the other person.
+First fork it, add a collaborator
+Then both clone the changes.
+
+Should always merge a branch with the master on Github rather than locally
+Add, Commit and Push your branch. Then in GitHub pull the origin master.
+Then you can use a new pull and compare/add the changes.
+
+
+Merge Conflicts:
+
+The person who merges first has no problems
+
+It is the second person who will have to deal with the conflict.
+You will need to resolve conflicts before you can complete the change.
+The Github text editor will show you the conflict (what is in master) 
